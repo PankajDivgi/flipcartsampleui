@@ -1,0 +1,38 @@
+.full-page{
+    display: flex;
+    padding: 10px;
+}
+.left-section{
+    width: 20%;
+}
+.right-section{
+    width: 80%;
+}
+.sort, .all-price{
+    display: flex;
+}
+.sort>p{
+    margin: 10px;
+}
+.all-price>p, .all-price>del{
+    margin: 6px;
+}
+.old-price{
+    color: darkgrey;
+    font-size: 14px;
+}
+.rate{
+    display: initial;
+    padding: 0 4px;
+    background-color: green;
+    color: #fff;
+    margin: 8px;
+}
+.searched-iteam{
+    display: flex;
+    flex-wrap: wrap;
+}
+.data-img{
+    width: 200px;
+    height: 200px;
+}
